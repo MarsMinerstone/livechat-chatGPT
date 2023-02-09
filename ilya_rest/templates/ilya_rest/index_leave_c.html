@@ -1,0 +1,18 @@
+{% extends 'ilya_rest/wrapper.html' %}
+{% block content %}
+<div>
+  <br>
+  <br>
+  <br>
+  <br>
+</div>
+<div class="w-25 p-3">
+<form method="post">
+    {% csrf_token  %}
+    {{ form.com }}
+    
+    <br>
+    <input class="btn btn-primary" type="submit" value="Submit">
+</form>
+</div>
+{% endblock %}

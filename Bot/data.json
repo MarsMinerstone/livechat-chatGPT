@@ -1,0 +1,1138 @@
+[
+    {
+        "id": "RP0TLPD6PG",
+        "last_event_per_type": {
+            "filled_form": {
+                "thread_id": "RP0TLPD6QG",
+                "thread_created_at": "2023-02-09T17:13:28.040000Z",
+                "event": {
+                    "id": "RP0TLPD6QG_1",
+                    "created_at": "2023-02-09T17:13:28.042004Z",
+                    "visibility": "all",
+                    "type": "filled_form",
+                    "properties": {
+                        "lc2": {
+                            "form_type": "prechat"
+                        },
+                        "source": {
+                            "client_id": "c5e4f61e1a6c3b1521b541bc5c5a2ac5"
+                        }
+                    },
+                    "author_id": "2cf76556-25a2-4bba-6ce5-b4478847bfad",
+                    "custom_id": "1nxq0zyfzgy",
+                    "form_id": "1001",
+                    "form_type": "prechat",
+                    "fields": [
+                        {
+                            "id": "2001",
+                            "type": "name",
+                            "label": "Name:",
+                            "answer": "ilya"
+                        },
+                        {
+                            "id": "2002",
+                            "type": "email",
+                            "label": "E-mail:",
+                            "answer": "kumquat-omelet-0w@icloud.com"
+                        }
+                    ]
+                }
+            },
+            "message": {
+                "thread_id": "RP0TLPD6QG",
+                "thread_created_at": "2023-02-09T17:13:28.040000Z",
+                "event": {
+                    "id": "RP0TLPD6QG_3",
+                    "created_at": "2023-02-09T17:13:32.221000Z",
+                    "visibility": "all",
+                    "type": "message",
+                    "properties": {
+                        "source": {
+                            "client_id": "c5e4f61e1a6c3b1521b541bc5c5a2ac5"
+                        }
+                    },
+                    "text": "hello",
+                    "author_id": "2cf76556-25a2-4bba-6ce5-b4478847bfad",
+                    "custom_id": "oichafv6eca"
+                }
+            }
+        },
+        "users": [
+            {
+                "id": "2cf76556-25a2-4bba-6ce5-b4478847bfad",
+                "name": "ilya",
+                "email": "kumquat-omelet-0w@icloud.com",
+                "events_seen_up_to": "2023-02-09T17:13:32.221000Z",
+                "type": "customer",
+                "present": true,
+                "created_at": "2023-02-09T17:12:08.952455Z",
+                "last_visit": {
+                    "id": 0,
+                    "started_at": "2023-02-09T17:12:08.952474Z",
+                    "referrer": "https://c286-185-124-230-26.eu.ngrok.io/?ngrok-skip-browser-warning=asdda",
+                    "ip": "172.225.127.198",
+                    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Safari/605.1.15",
+                    "geolocation": {
+                        "country": "Russia",
+                        "country_code": "RU",
+                        "region": "Novosibirsk Oblast",
+                        "city": "Novosibirsk",
+                        "timezone": "Asia/Novosibirsk",
+                        "latitude": "54.902200000000001",
+                        "longitude": "83.033500000000004"
+                    },
+                    "last_pages": [
+                        {
+                            "opened_at": "2023-02-09T17:12:08.952474Z",
+                            "url": "https://c286-185-124-230-26.eu.ngrok.io/",
+                            "title": "Home"
+                        }
+                    ]
+                },
+                "statistics": {
+                    "chats_count": 1,
+                    "threads_count": 1,
+                    "visits_count": 1,
+                    "page_views_count": 1,
+                    "greetings_shown_count": 1,
+                    "greetings_accepted_count": 0
+                },
+                "agent_last_event_created_at": "2023-02-09T17:13:28.043005Z",
+                "customer_last_event_created_at": "2023-02-09T17:13:32.221000Z"
+            },
+            {
+                "id": "crusts_vapid0j@icloud.com",
+                "name": "Ilya Bebra",
+                "email": "crusts_vapid0j@icloud.com",
+                "type": "agent",
+                "present": true,
+                "avatar": "https://cdn.livechat-static.com/api/file/lc/img/default/avatars/394ad6e3df2320941ab8e0ca147d5221.png",
+                "visibility": "all"
+            }
+        ],
+        "last_thread_summary": {
+            "id": "RP0TLPD6QG",
+            "user_ids": [
+                "2cf76556-25a2-4bba-6ce5-b4478847bfad",
+                "crusts_vapid0j@icloud.com"
+            ],
+            "properties": {
+                "routing": {
+                    "continuous": true,
+                    "group_status_at_start": "online",
+                    "idle": false,
+                    "pinned": true,
+                    "referrer": "https://c286-185-124-230-26.eu.ngrok.io/?ngrok-skip-browser-warning=asdda",
+                    "start_url": "https://c286-185-124-230-26.eu.ngrok.io/",
+                    "unassigned": false
+                },
+                "source": {
+                    "client_id": "c5e4f61e1a6c3b1521b541bc5c5a2ac5",
+                    "customer_client_id": "c5e4f61e1a6c3b1521b541bc5c5a2ac5"
+                }
+            },
+            "active": true,
+            "access": {
+                "group_ids": [
+                    0
+                ]
+            },
+            "created_at": "2023-02-09T17:13:28.040000Z"
+        },
+        "properties": {
+            "routing": {
+                "continuous": true,
+                "email_follow_up": true,
+                "pinned": true
+            },
+            "source": {
+                "client_id": "c5e4f61e1a6c3b1521b541bc5c5a2ac5",
+                "customer_client_id": "c5e4f61e1a6c3b1521b541bc5c5a2ac5"
+            }
+        },
+        "access": {
+            "group_ids": [
+                0
+            ]
+        },
+        "is_followed": true
+    },
+    {
+        "id": "RP0TEH3068",
+        "last_event_per_type": {
+            "filled_form": {
+                "thread_id": "RP0TJNC0LI",
+                "thread_created_at": "2023-02-09T16:26:42.824000Z",
+                "event": {
+                    "id": "RP0TJNC0LI_2",
+                    "created_at": "2023-02-09T16:26:42.825004Z",
+                    "visibility": "all",
+                    "type": "filled_form",
+                    "properties": {
+                        "lc2": {
+                            "form_type": "prechat"
+                        },
+                        "source": {
+                            "client_id": "c5e4f61e1a6c3b1521b541bc5c5a2ac5"
+                        }
+                    },
+                    "author_id": "4f40b149-55ea-46b0-4d39-a3f9b1334f0e",
+                    "custom_id": "r5hvy00v93",
+                    "form_id": "1001",
+                    "form_type": "prechat",
+                    "fields": [
+                        {
+                            "id": "2001",
+                            "type": "name",
+                            "label": "Name:",
+                            "answer": "ilya"
+                        },
+                        {
+                            "id": "2002",
+                            "type": "email",
+                            "label": "E-mail:",
+                            "answer": "kumquat-omelet-0w@icloud.com"
+                        }
+                    ]
+                }
+            },
+            "message": {
+                "thread_id": "RP0TJNC0LI",
+                "thread_created_at": "2023-02-09T16:26:42.824000Z",
+                "event": {
+                    "id": "RP0TJNC0LI_12",
+                    "created_at": "2023-02-09T16:40:41.930000Z",
+                    "visibility": "all",
+                    "type": "message",
+                    "properties": {
+                        "source": {
+                            "client_id": "b031251c1b7f6b79d26d044ca86514c7"
+                        }
+                    },
+                    "text": "\n\nHi there! How can I help you?",
+                    "author_id": "crusts_vapid0j@icloud.com"
+                }
+            },
+            "system_message": {
+                "thread_id": "RP0TJNC0LI",
+                "thread_created_at": "2023-02-09T16:26:42.824000Z",
+                "event": {
+                    "id": "RP0TJNC0LI_14",
+                    "created_at": "2023-02-09T16:55:43.002000Z",
+                    "visibility": "all",
+                    "type": "system_message",
+                    "text": "Chat archived due to 15 minutes of inactivity",
+                    "system_message_type": "routing.archived_inactive",
+                    "text_vars": {
+                        "duration": "15"
+                    }
+                }
+            }
+        },
+        "users": [
+            {
+                "id": "4f40b149-55ea-46b0-4d39-a3f9b1334f0e",
+                "name": "ilya",
+                "email": "kumquat-omelet-0w@icloud.com",
+                "events_seen_up_to": "2023-02-09T16:40:41.930999Z",
+                "type": "customer",
+                "present": true,
+                "created_at": "2023-02-09T14:16:50.263792Z",
+                "last_visit": {
+                    "id": 0,
+                    "started_at": "2023-02-09T14:16:50.263811Z",
+                    "ended_at": "2023-02-09T14:57:41.002359Z",
+                    "ip": "172.225.127.222",
+                    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Safari/605.1.15",
+                    "geolocation": {
+                        "country": "Russia",
+                        "country_code": "RU",
+                        "region": "Novosibirsk Oblast",
+                        "city": "Novosibirsk",
+                        "timezone": "Asia/Novosibirsk",
+                        "latitude": "54.902200000000001",
+                        "longitude": "83.033500000000004"
+                    },
+                    "last_pages": [
+                        {
+                            "opened_at": "2023-02-09T14:16:50.263811Z",
+                            "url": "http://127.0.0.1:8000/",
+                            "title": "Home"
+                        }
+                    ]
+                },
+                "statistics": {
+                    "chats_count": 1,
+                    "threads_count": 2,
+                    "visits_count": 6,
+                    "page_views_count": 4,
+                    "greetings_shown_count": 3,
+                    "greetings_accepted_count": 0
+                },
+                "agent_last_event_created_at": "2023-02-09T14:25:01.713000Z",
+                "customer_last_event_created_at": "2023-02-09T14:41:56.803000Z",
+                "email_verified": false
+            },
+            {
+                "id": "crusts_vapid0j@icloud.com",
+                "name": "Ilya Bebra",
+                "email": "crusts_vapid0j@icloud.com",
+                "events_seen_up_to": "2023-02-09T16:40:41.930000Z",
+                "type": "agent",
+                "present": false,
+                "avatar": "https://cdn.livechat-static.com/api/file/lc/img/default/avatars/394ad6e3df2320941ab8e0ca147d5221.png",
+                "visibility": "all"
+            }
+        ],
+        "last_thread_summary": {
+            "id": "RP0TJNC0LI",
+            "user_ids": [
+                "crusts_vapid0j@icloud.com",
+                "4f40b149-55ea-46b0-4d39-a3f9b1334f0e"
+            ],
+            "properties": {
+                "lc2": {
+                    "greeting_id": 2,
+                    "greeting_unique_id": "RP0TIMXJ2G"
+                },
+                "routing": {
+                    "continuous": true,
+                    "group_status_at_start": "online",
+                    "idle": false,
+                    "pinned": false,
+                    "referrer": "",
+                    "start_url": "http://127.0.0.1:8000/",
+                    "unassigned": false
+                },
+                "source": {
+                    "client_id": "c5e4f61e1a6c3b1521b541bc5c5a2ac5",
+                    "customer_client_id": "c5e4f61e1a6c3b1521b541bc5c5a2ac5"
+                }
+            },
+            "active": false,
+            "access": {
+                "group_ids": [
+                    0
+                ]
+            },
+            "created_at": "2023-02-09T16:26:42.824000Z"
+        },
+        "properties": {
+            "routing": {
+                "continuous": true,
+                "email_follow_up": true,
+                "pinned": false,
+                "was_pinned": false
+            },
+            "source": {
+                "client_id": "c5e4f61e1a6c3b1521b541bc5c5a2ac5",
+                "customer_client_id": "c5e4f61e1a6c3b1521b541bc5c5a2ac5"
+            },
+            "supervising": {
+                "agent_ids": ""
+            }
+        },
+        "access": {
+            "group_ids": [
+                0
+            ]
+        },
+        "is_followed": false
+    },
+    {
+        "id": "RP0S5SIL7O",
+        "last_event_per_type": {
+            "filled_form": {
+                "thread_id": "RP0S5TSY54",
+                "thread_created_at": "2023-02-09T05:58:52.726000Z",
+                "event": {
+                    "id": "RP0S5TSY54_1",
+                    "created_at": "2023-02-09T05:58:52.726003Z",
+                    "visibility": "all",
+                    "type": "filled_form",
+                    "properties": {
+                        "lc2": {
+                            "form_type": "prechat"
+                        },
+                        "source": {
+                            "client_id": "c5e4f61e1a6c3b1521b541bc5c5a2ac5"
+                        }
+                    },
+                    "author_id": "85df0151-a87e-4ec3-7af0-2c11788ba8cf",
+                    "custom_id": "a9d6nfu3j5a",
+                    "form_id": "1001",
+                    "form_type": "prechat",
+                    "fields": [
+                        {
+                            "id": "2001",
+                            "type": "name",
+                            "label": "Name:",
+                            "answer": "ilya"
+                        },
+                        {
+                            "id": "2002",
+                            "type": "email",
+                            "label": "E-mail:",
+                            "answer": "kumquat-omelet-0w@icloud.com"
+                        }
+                    ]
+                }
+            },
+            "message": {
+                "thread_id": "RP0TCD6VA2",
+                "thread_created_at": "2023-02-09T13:09:02.635000Z",
+                "event": {
+                    "id": "RP0TCD6VA2_1",
+                    "created_at": "2023-02-09T13:09:10.158000Z",
+                    "visibility": "all",
+                    "type": "message",
+                    "properties": {
+                        "source": {
+                            "client_id": "b031251c1b7f6b79d26d044ca86514c7"
+                        }
+                    },
+                    "text": "Hello from Agent RTM!",
+                    "author_id": "crusts_vapid0j@icloud.com"
+                }
+            },
+            "system_message": {
+                "thread_id": "RP0TCD6VA2",
+                "thread_created_at": "2023-02-09T13:09:02.635000Z",
+                "event": {
+                    "id": "RP0TCD6VA2_3",
+                    "created_at": "2023-02-09T13:24:39.002000Z",
+                    "visibility": "all",
+                    "type": "system_message",
+                    "text": "Chat archived due to 15 minutes of inactivity",
+                    "system_message_type": "routing.archived_inactive",
+                    "text_vars": {
+                        "duration": "15"
+                    }
+                }
+            }
+        },
+        "users": [
+            {
+                "id": "85df0151-a87e-4ec3-7af0-2c11788ba8cf",
+                "name": "ilya",
+                "email": "kumquat-omelet-0w@icloud.com",
+                "events_seen_up_to": "2023-02-09T10:39:36.794999Z",
+                "type": "customer",
+                "present": true,
+                "created_at": "2023-02-09T05:29:36.287109Z",
+                "last_visit": {
+                    "id": 0,
+                    "started_at": "2023-02-09T12:13:21.746231Z",
+                    "ended_at": "2023-02-09T12:43:23.003877Z",
+                    "ip": "104.28.38.95",
+                    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Safari/605.1.15",
+                    "geolocation": {
+                        "country": "Russia",
+                        "country_code": "RU",
+                        "region": "Novosibirsk Oblast",
+                        "city": "Novosibirsk",
+                        "timezone": "Asia/Novosibirsk",
+                        "latitude": "54.902200000000001",
+                        "longitude": "83.033500000000004"
+                    },
+                    "last_pages": [
+                        {
+                            "opened_at": "2023-02-09T12:13:21.746231Z",
+                            "url": "http://127.0.0.1:8000/",
+                            "title": "Home"
+                        }
+                    ]
+                },
+                "statistics": {
+                    "chats_count": 1,
+                    "threads_count": 3,
+                    "visits_count": 5,
+                    "page_views_count": 2,
+                    "greetings_shown_count": 2,
+                    "greetings_accepted_count": 0
+                },
+                "agent_last_event_created_at": "2023-02-09T10:39:36.794000Z",
+                "customer_last_event_created_at": "2023-02-09T10:38:50.698000Z",
+                "email_verified": false
+            },
+            {
+                "id": "crusts_vapid0j@icloud.com",
+                "name": "Ilya Bebra",
+                "email": "crusts_vapid0j@icloud.com",
+                "events_seen_up_to": "2023-02-09T13:09:10.158000Z",
+                "type": "agent",
+                "present": false,
+                "avatar": "https://cdn.livechat-static.com/api/file/lc/img/default/avatars/394ad6e3df2320941ab8e0ca147d5221.png",
+                "visibility": "all"
+            }
+        ],
+        "last_thread_summary": {
+            "id": "RP0TCD6VA2",
+            "user_ids": [
+                "crusts_vapid0j@icloud.com",
+                "85df0151-a87e-4ec3-7af0-2c11788ba8cf"
+            ],
+            "properties": {
+                "routing": {
+                    "continuous": true,
+                    "group_status_at_start": "online",
+                    "idle": false,
+                    "pinned": false,
+                    "unassigned": false
+                },
+                "source": {
+                    "client_id": "bb9e5b2f1ab480e4a715977b7b1b4279",
+                    "customer_client_id": "c5e4f61e1a6c3b1521b541bc5c5a2ac5"
+                }
+            },
+            "active": false,
+            "access": {
+                "group_ids": [
+                    0
+                ]
+            },
+            "created_at": "2023-02-09T13:09:02.635000Z"
+        },
+        "properties": {
+            "routing": {
+                "continuous": true,
+                "email_follow_up": true,
+                "pinned": false,
+                "was_pinned": false
+            },
+            "source": {
+                "client_id": "c5e4f61e1a6c3b1521b541bc5c5a2ac5",
+                "customer_client_id": "c5e4f61e1a6c3b1521b541bc5c5a2ac5"
+            },
+            "supervising": {
+                "agent_ids": ""
+            }
+        },
+        "access": {
+            "group_ids": [
+                0
+            ]
+        },
+        "is_followed": false
+    },
+    {
+        "id": "RP0T70PMFC",
+        "last_event_per_type": {
+            "filled_form": {
+                "thread_id": "RP0T70PMGC",
+                "thread_created_at": "2023-02-09T08:23:00.379000Z",
+                "event": {
+                    "id": "RP0T70PMGC_1",
+                    "created_at": "2023-02-09T08:23:00.380004Z",
+                    "visibility": "all",
+                    "type": "filled_form",
+                    "properties": {
+                        "lc2": {
+                            "form_type": "prechat"
+                        },
+                        "source": {
+                            "client_id": "c5e4f61e1a6c3b1521b541bc5c5a2ac5"
+                        }
+                    },
+                    "author_id": "89f27847-aa38-429b-686b-f32121b42069",
+                    "custom_id": "skdawpo754c",
+                    "form_id": "1001",
+                    "form_type": "prechat",
+                    "fields": [
+                        {
+                            "id": "2001",
+                            "type": "name",
+                            "label": "Name:",
+                            "answer": "Mars Minerstone"
+                        },
+                        {
+                            "id": "2002",
+                            "type": "email",
+                            "label": "E-mail:",
+                            "answer": "mastermars777@gmail.com"
+                        }
+                    ]
+                }
+            },
+            "message": {
+                "thread_id": "RP0T968F3F",
+                "thread_created_at": "2023-02-09T10:28:27.991000Z",
+                "event": {
+                    "id": "RP0T968F3F_2",
+                    "created_at": "2023-02-09T10:34:33.056000Z",
+                    "visibility": "all",
+                    "type": "message",
+                    "properties": {
+                        "source": {
+                            "client_id": "bb9e5b2f1ab480e4a715977b7b1b4279"
+                        }
+                    },
+                    "text": "alll",
+                    "author_id": "crusts_vapid0j@icloud.com",
+                    "custom_id": "1675938872787.99541337546"
+                }
+            },
+            "system_message": {
+                "thread_id": "RP0TCD6U7Z",
+                "thread_created_at": "2023-02-09T13:08:59.891000Z",
+                "event": {
+                    "id": "RP0TCD6U7Z_2",
+                    "created_at": "2023-02-09T13:24:39.004000Z",
+                    "visibility": "all",
+                    "type": "system_message",
+                    "text": "Chat archived due to 15 minutes of inactivity",
+                    "system_message_type": "routing.archived_inactive",
+                    "text_vars": {
+                        "duration": "15"
+                    }
+                }
+            }
+        },
+        "users": [
+            {
+                "id": "89f27847-aa38-429b-686b-f32121b42069",
+                "name": "Mars Minerstone",
+                "email": "mastermars777@gmail.com",
+                "events_seen_up_to": "2023-02-09T08:23:00.381999Z",
+                "type": "customer",
+                "present": true,
+                "created_at": "2023-02-09T08:22:54.394401Z",
+                "last_visit": {
+                    "id": 0,
+                    "started_at": "2023-02-09T08:22:54.394428Z",
+                    "ended_at": "2023-02-09T08:24:53.002292Z",
+                    "ip": "207.154.236.183",
+                    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+                    "geolocation": {
+                        "country": "Germany",
+                        "country_code": "DE",
+                        "region": "Hesse",
+                        "city": "Frankfurt am Main",
+                        "timezone": "Europe/Berlin",
+                        "latitude": "50.1188",
+                        "longitude": "8.6843000000000004"
+                    },
+                    "last_pages": [
+                        {
+                            "opened_at": "2023-02-09T08:22:54.394428Z",
+                            "url": "http://127.0.0.1:8000/",
+                            "title": "Home"
+                        }
+                    ]
+                },
+                "statistics": {
+                    "chats_count": 1,
+                    "threads_count": 1,
+                    "visits_count": 1,
+                    "page_views_count": 1,
+                    "greetings_shown_count": 0,
+                    "greetings_accepted_count": 0
+                },
+                "agent_last_event_created_at": "2023-02-09T08:23:00.381001Z",
+                "customer_last_event_created_at": "2023-02-09T08:23:00.380004Z",
+                "email_verified": false
+            },
+            {
+                "id": "crusts_vapid0j@icloud.com",
+                "name": "Ilya Bebra",
+                "email": "crusts_vapid0j@icloud.com",
+                "events_seen_up_to": "2023-02-09T10:34:33.056000Z",
+                "type": "agent",
+                "present": false,
+                "avatar": "https://cdn.livechat-static.com/api/file/lc/img/default/avatars/394ad6e3df2320941ab8e0ca147d5221.png",
+                "visibility": "all"
+            }
+        ],
+        "last_thread_summary": {
+            "id": "RP0TCD6U7Z",
+            "user_ids": [
+                "crusts_vapid0j@icloud.com",
+                "89f27847-aa38-429b-686b-f32121b42069"
+            ],
+            "properties": {
+                "routing": {
+                    "continuous": true,
+                    "group_status_at_start": "online",
+                    "idle": false,
+                    "pinned": false,
+                    "unassigned": false
+                },
+                "source": {
+                    "client_id": "bb9e5b2f1ab480e4a715977b7b1b4279",
+                    "customer_client_id": "c5e4f61e1a6c3b1521b541bc5c5a2ac5"
+                }
+            },
+            "active": false,
+            "access": {
+                "group_ids": [
+                    0
+                ]
+            },
+            "created_at": "2023-02-09T13:08:59.891000Z"
+        },
+        "properties": {
+            "routing": {
+                "continuous": true,
+                "email_follow_up": true,
+                "pinned": false,
+                "was_pinned": false
+            },
+            "source": {
+                "client_id": "c5e4f61e1a6c3b1521b541bc5c5a2ac5",
+                "customer_client_id": "c5e4f61e1a6c3b1521b541bc5c5a2ac5"
+            },
+            "supervising": {
+                "agent_ids": ""
+            }
+        },
+        "access": {
+            "group_ids": [
+                0
+            ]
+        },
+        "is_followed": false
+    },
+    {
+        "id": "RP0T96DT40",
+        "last_event_per_type": {
+            "system_message": {
+                "thread_id": "RP0T96DT50",
+                "thread_created_at": "2023-02-09T10:36:36.584000Z",
+                "event": {
+                    "id": "RP0T96DT50_2",
+                    "created_at": "2023-02-09T10:52:13.002000Z",
+                    "visibility": "all",
+                    "type": "system_message",
+                    "text": "Chat archived due to 15 minutes of inactivity",
+                    "system_message_type": "routing.archived_inactive",
+                    "text_vars": {
+                        "duration": "15"
+                    }
+                }
+            }
+        },
+        "users": [
+            {
+                "id": "crusts_vapid0j@icloud.com",
+                "name": "Ilya Bebra",
+                "email": "crusts_vapid0j@icloud.com",
+                "type": "agent",
+                "present": true,
+                "avatar": "https://cdn.livechat-static.com/api/file/lc/img/default/avatars/394ad6e3df2320941ab8e0ca147d5221.png",
+                "visibility": "all"
+            }
+        ],
+        "last_thread_summary": {
+            "id": "RP0T96DT50",
+            "user_ids": [
+                "crusts_vapid0j@icloud.com"
+            ],
+            "properties": {
+                "routing": {
+                    "continuous": true,
+                    "group_status_at_start": "online",
+                    "idle": false
+                },
+                "source": {
+                    "client_id": "b031251c1b7f6b79d26d044ca86514c7"
+                }
+            },
+            "active": false,
+            "access": {
+                "group_ids": [
+                    0
+                ]
+            },
+            "created_at": "2023-02-09T10:36:36.584000Z"
+        },
+        "properties": {
+            "routing": {
+                "continuous": true
+            },
+            "source": {
+                "client_id": "b031251c1b7f6b79d26d044ca86514c7"
+            }
+        },
+        "access": {
+            "group_ids": [
+                0
+            ]
+        },
+        "is_followed": false
+    },
+    {
+        "id": "RP0T96CRIO",
+        "last_event_per_type": {
+            "system_message": {
+                "thread_id": "RP0T96CRJO",
+                "thread_created_at": "2023-02-09T10:35:48.885000Z",
+                "event": {
+                    "id": "RP0T96CRJO_2",
+                    "created_at": "2023-02-09T10:51:13.002007Z",
+                    "visibility": "all",
+                    "type": "system_message",
+                    "text": "Chat archived due to 15 minutes of inactivity",
+                    "system_message_type": "routing.archived_inactive",
+                    "text_vars": {
+                        "duration": "15"
+                    }
+                }
+            }
+        },
+        "users": [
+            {
+                "id": "crusts_vapid0j@icloud.com",
+                "name": "Ilya Bebra",
+                "email": "crusts_vapid0j@icloud.com",
+                "type": "agent",
+                "present": true,
+                "avatar": "https://cdn.livechat-static.com/api/file/lc/img/default/avatars/394ad6e3df2320941ab8e0ca147d5221.png",
+                "visibility": "all"
+            }
+        ],
+        "last_thread_summary": {
+            "id": "RP0T96CRJO",
+            "user_ids": [
+                "crusts_vapid0j@icloud.com"
+            ],
+            "properties": {
+                "routing": {
+                    "continuous": true,
+                    "group_status_at_start": "online",
+                    "idle": false
+                },
+                "source": {
+                    "client_id": "b031251c1b7f6b79d26d044ca86514c7"
+                }
+            },
+            "active": false,
+            "access": {
+                "group_ids": [
+                    0
+                ]
+            },
+            "created_at": "2023-02-09T10:35:48.885000Z"
+        },
+        "properties": {
+            "routing": {
+                "continuous": true
+            },
+            "source": {
+                "client_id": "b031251c1b7f6b79d26d044ca86514c7"
+            }
+        },
+        "access": {
+            "group_ids": [
+                0
+            ]
+        },
+        "is_followed": false
+    },
+    {
+        "id": "RP0T96CQ5Z",
+        "last_event_per_type": {
+            "system_message": {
+                "thread_id": "RP0T96CQ6Z",
+                "thread_created_at": "2023-02-09T10:35:23.559000Z",
+                "event": {
+                    "id": "RP0T96CQ6Z_2",
+                    "created_at": "2023-02-09T10:51:13.002000Z",
+                    "visibility": "all",
+                    "type": "system_message",
+                    "text": "Chat archived due to 15 minutes of inactivity",
+                    "system_message_type": "routing.archived_inactive",
+                    "text_vars": {
+                        "duration": "15"
+                    }
+                }
+            }
+        },
+        "users": [
+            {
+                "id": "crusts_vapid0j@icloud.com",
+                "name": "Ilya Bebra",
+                "email": "crusts_vapid0j@icloud.com",
+                "type": "agent",
+                "present": true,
+                "avatar": "https://cdn.livechat-static.com/api/file/lc/img/default/avatars/394ad6e3df2320941ab8e0ca147d5221.png",
+                "visibility": "all"
+            }
+        ],
+        "last_thread_summary": {
+            "id": "RP0T96CQ6Z",
+            "user_ids": [
+                "crusts_vapid0j@icloud.com"
+            ],
+            "properties": {
+                "routing": {
+                    "continuous": true,
+                    "group_status_at_start": "online",
+                    "idle": false
+                },
+                "source": {
+                    "client_id": "b031251c1b7f6b79d26d044ca86514c7"
+                }
+            },
+            "active": false,
+            "access": {
+                "group_ids": [
+                    0
+                ]
+            },
+            "created_at": "2023-02-09T10:35:23.559000Z"
+        },
+        "properties": {
+            "routing": {
+                "continuous": true
+            },
+            "source": {
+                "client_id": "b031251c1b7f6b79d26d044ca86514c7"
+            }
+        },
+        "access": {
+            "group_ids": [
+                0
+            ]
+        },
+        "is_followed": false
+    },
+    {
+        "id": "RP0T968HX0",
+        "last_event_per_type": {
+            "message": {
+                "thread_id": "RP0T968HY0",
+                "thread_created_at": "2023-02-09T10:29:24.298000Z",
+                "event": {
+                    "id": "RP0T968HY0_2",
+                    "created_at": "2023-02-09T10:37:57.086000Z",
+                    "visibility": "all",
+                    "type": "message",
+                    "properties": {
+                        "source": {
+                            "client_id": "b031251c1b7f6b79d26d044ca86514c7"
+                        }
+                    },
+                    "text": "Hello from Agent RTM!",
+                    "author_id": "crusts_vapid0j@icloud.com"
+                }
+            },
+            "system_message": {
+                "thread_id": "RP0T968HY0",
+                "thread_created_at": "2023-02-09T10:29:24.298000Z",
+                "event": {
+                    "id": "RP0T968HY0_4",
+                    "created_at": "2023-02-09T10:53:14.001000Z",
+                    "visibility": "all",
+                    "type": "system_message",
+                    "text": "Chat archived due to 15 minutes of inactivity",
+                    "system_message_type": "routing.archived_inactive",
+                    "text_vars": {
+                        "duration": "15"
+                    }
+                }
+            }
+        },
+        "users": [
+            {
+                "id": "crusts_vapid0j@icloud.com",
+                "name": "Ilya Bebra",
+                "email": "crusts_vapid0j@icloud.com",
+                "events_seen_up_to": "2023-02-09T10:37:57.086000Z",
+                "type": "agent",
+                "present": true,
+                "avatar": "https://cdn.livechat-static.com/api/file/lc/img/default/avatars/394ad6e3df2320941ab8e0ca147d5221.png",
+                "visibility": "all"
+            }
+        ],
+        "last_thread_summary": {
+            "id": "RP0T968HY0",
+            "user_ids": [
+                "crusts_vapid0j@icloud.com"
+            ],
+            "properties": {
+                "routing": {
+                    "continuous": true,
+                    "group_status_at_start": "online",
+                    "idle": false
+                },
+                "source": {
+                    "client_id": "b031251c1b7f6b79d26d044ca86514c7"
+                }
+            },
+            "active": false,
+            "access": {
+                "group_ids": [
+                    0
+                ]
+            },
+            "created_at": "2023-02-09T10:29:24.298000Z"
+        },
+        "properties": {
+            "routing": {
+                "continuous": true
+            },
+            "source": {
+                "client_id": "b031251c1b7f6b79d26d044ca86514c7"
+            }
+        },
+        "access": {
+            "group_ids": [
+                0
+            ]
+        },
+        "is_followed": false
+    },
+    {
+        "id": "RP0T968FBM",
+        "last_event_per_type": {
+            "system_message": {
+                "thread_id": "RP0T968FCM",
+                "thread_created_at": "2023-02-09T10:28:34.622000Z",
+                "event": {
+                    "id": "RP0T968FCM_2",
+                    "created_at": "2023-02-09T10:44:10.001000Z",
+                    "visibility": "all",
+                    "type": "system_message",
+                    "text": "Chat archived due to 15 minutes of inactivity",
+                    "system_message_type": "routing.archived_inactive",
+                    "text_vars": {
+                        "duration": "15"
+                    }
+                }
+            }
+        },
+        "users": [
+            {
+                "id": "crusts_vapid0j@icloud.com",
+                "name": "Ilya Bebra",
+                "email": "crusts_vapid0j@icloud.com",
+                "type": "agent",
+                "present": true,
+                "avatar": "https://cdn.livechat-static.com/api/file/lc/img/default/avatars/394ad6e3df2320941ab8e0ca147d5221.png",
+                "visibility": "all"
+            }
+        ],
+        "last_thread_summary": {
+            "id": "RP0T968FCM",
+            "user_ids": [
+                "crusts_vapid0j@icloud.com"
+            ],
+            "properties": {
+                "routing": {
+                    "continuous": true,
+                    "group_status_at_start": "online",
+                    "idle": false
+                },
+                "source": {
+                    "client_id": "b031251c1b7f6b79d26d044ca86514c7"
+                }
+            },
+            "active": false,
+            "access": {
+                "group_ids": [
+                    0
+                ]
+            },
+            "created_at": "2023-02-09T10:28:34.622000Z"
+        },
+        "properties": {
+            "routing": {
+                "continuous": true
+            },
+            "source": {
+                "client_id": "b031251c1b7f6b79d26d044ca86514c7"
+            }
+        },
+        "access": {
+            "group_ids": [
+                0
+            ]
+        },
+        "is_followed": false
+    },
+    {
+        "id": "RP0T967ETW",
+        "last_event_per_type": {
+            "message": {
+                "thread_id": "RP0T967EUW",
+                "thread_created_at": "2023-02-09T10:28:08.391000Z",
+                "event": {
+                    "id": "RP0T967EUW_1",
+                    "created_at": "2023-02-09T10:28:08.796000Z",
+                    "visibility": "all",
+                    "type": "message",
+                    "properties": {
+                        "source": {
+                            "client_id": "b031251c1b7f6b79d26d044ca86514c7"
+                        }
+                    },
+                    "text": "Hello from Agent RTM!",
+                    "author_id": "crusts_vapid0j@icloud.com"
+                }
+            },
+            "system_message": {
+                "thread_id": "RP0T967EUW",
+                "thread_created_at": "2023-02-09T10:28:08.391000Z",
+                "event": {
+                    "id": "RP0T967EUW_2",
+                    "created_at": "2023-02-09T10:28:09.815000Z",
+                    "visibility": "all",
+                    "type": "system_message",
+                    "text": "Ilya Bebra archived the chat",
+                    "system_message_type": "manual_archived_agent",
+                    "text_vars": {
+                        "agent": "Ilya Bebra"
+                    }
+                }
+            }
+        },
+        "users": [
+            {
+                "id": "crusts_vapid0j@icloud.com",
+                "name": "Ilya Bebra",
+                "email": "crusts_vapid0j@icloud.com",
+                "events_seen_up_to": "2023-02-09T10:28:08.796000Z",
+                "type": "agent",
+                "present": true,
+                "avatar": "https://cdn.livechat-static.com/api/file/lc/img/default/avatars/394ad6e3df2320941ab8e0ca147d5221.png",
+                "visibility": "all"
+            }
+        ],
+        "last_thread_summary": {
+            "id": "RP0T967EUW",
+            "user_ids": [
+                "crusts_vapid0j@icloud.com"
+            ],
+            "properties": {
+                "routing": {
+                    "continuous": true,
+                    "group_status_at_start": "online"
+                },
+                "source": {
+                    "client_id": "b031251c1b7f6b79d26d044ca86514c7"
+                }
+            },
+            "active": false,
+            "access": {
+                "group_ids": [
+                    0
+                ]
+            },
+            "created_at": "2023-02-09T10:28:08.391000Z"
+        },
+        "properties": {
+            "routing": {
+                "continuous": true
+            },
+            "source": {
+                "client_id": "b031251c1b7f6b79d26d044ca86514c7"
+            }
+        },
+        "access": {
+            "group_ids": [
+                0
+            ]
+        },
+        "is_followed": false
+    }
+]

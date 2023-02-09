@@ -1,0 +1,138 @@
+{% extends "ilya_rest/wrapper.html" %}
+
+{% block content %}
+
+<div>
+  <br>
+  <br>
+  <br>
+  <br>
+</div>
+
+
+
+<section class="features10 cid-syAUk2KwYT" id="features11-x">
+    <!---->
+    
+    
+    <div class="container">
+        <div class="title">
+            <h3 class="mbr-section-title mbr-fonts-style mb-4 display-2">
+                <strong>Dishes List</strong>
+            </h3>
+            
+        </div>
+        {% for i in dish%}
+        {% if i.is_visible %}
+        <div class="card">
+            <div class="card-wrapper">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-3">
+                        <div class="image-wrapper">
+
+                            <img src="{{ i.d_image.url }}" alt="" title="">
+                            
+                        </div>
+                    </div>
+                    <div class="col-12 col-md">
+                        <div class="card-box">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="top-line">
+                                        <h4 class="card-title mbr-fonts-style display-5"><strong>{{ i.d_name }}</strong></h4>
+                                        <p class="cost mbr-fonts-style display-5">
+                                            {{ i.price }}$</p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="bottom-line">
+                                        <p class="mbr-text mbr-fonts-style m-0 display-7">
+                                            {{ i.description }}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <br>
+                <br>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+        <!--div class="card">
+            <div class="card-wrapper">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-3">
+                        <div class="image-wrapper">
+                            <img src="assets/images/product2.jpg" alt="Mobirise" title="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md">
+                        <div class="card-box">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="top-line">
+                                        <h4 class="card-title mbr-fonts-style display-5"><strong>Mug</strong></h4>
+                                        <p class="cost mbr-fonts-style display-5">
+                                            $49</p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="bottom-line">
+                                        <p class="mbr-text mbr-fonts-style m-0 display-7">
+                                            Themes in the Mobirise website builder offer multiple blocks: intros,
+                                            sliders, galleries, forms, articles, and so on. Start a project and click on
+                                            the red plus buttons to see the blocks available for your theme.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-wrapper">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-3">
+                        <div class="image-wrapper">
+                            <img src="assets/images/product3.jpg" alt="Mobirise" title="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md">
+                        <div class="card-box">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="top-line">
+                                        <h4 class="card-title mbr-fonts-style display-5"><strong>Coffee</strong></h4>
+                                        <p class="cost mbr-fonts-style display-5">
+                                            $49</p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="bottom-line">
+                                        <p class="mbr-text mbr-fonts-style m-0 display-7">
+                                            Themes in the Mobirise website builder offer multiple blocks: intros,
+                                            sliders, galleries, forms, articles, and so on. Start a project and click on
+                                            the red plus buttons to see the blocks available for your theme.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div-->
+        
+        
+        
+    </div>
+</section>
+
+{% endblock %}

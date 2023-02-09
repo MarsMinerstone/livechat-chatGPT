@@ -1,0 +1,27 @@
+{% extends 'ilya_rest/wrapper.html' %}
+{% block content %}
+<div>
+  <br>
+  <br>
+  <br>
+  <br>
+</div>
+<div class="w-25 p-3">
+<form method="post" action="/registration/">
+  {% csrf_token %}
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Login</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" name="username">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" name="password">
+  </div>
+   <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword2" name="password2">
+  </div>
+  <button type="submit" class="btn btn-primary">Register</button>
+</form>
+</div>
+{% endblock %}
